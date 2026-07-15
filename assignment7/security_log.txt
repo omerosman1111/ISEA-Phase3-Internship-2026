@@ -1,0 +1,205 @@
+2026-07-15 13:30:19 | USER_REGISTERED           | userA                | 10.0.0.2        | 
+2026-07-15 13:30:19 | AUTH_SUCCESS              | userA                | 10.0.0.2        | 
+2026-07-15 13:31:13 | USER_REGISTERED           | userB                | 10.0.0.3        | 
+2026-07-15 13:31:13 | AUTH_SUCCESS              | userB                | 10.0.0.3        | 
+2026-07-15 13:31:34 | USER_REGISTERED           | userC                | 10.0.0.4        | 
+2026-07-15 13:31:34 | AUTH_SUCCESS              | userC                | 10.0.0.4        | 
+2026-07-15 13:31:49 | USER_REGISTERED           | userD                | 10.0.0.5        | 
+2026-07-15 13:31:49 | AUTH_SUCCESS              | userD                | 10.0.0.5        | 
+2026-07-15 13:31:54 | LOGOUT                    | userD                | 10.0.0.5        | 
+2026-07-15 13:32:03 | INVALID_PASSWORD          | userD                | 10.0.0.5        | Password must be at least 4 characters.
+2026-07-15 13:32:06 | AUTH_FAILED               | userD                | 10.0.0.5        | Wrong password
+2026-07-15 13:33:00 | AUTH_FAILED               | userD                | 10.0.0.5        | Wrong password
+2026-07-15 13:33:04 | AUTH_FAILED               | userD                | 10.0.0.5        | Wrong password
+2026-07-15 13:33:06 | AUTH_FAILED               | userD                | 10.0.0.5        | Wrong password
+2026-07-15 13:33:08 | AUTH_FAILED               | userD                | 10.0.0.5        | Wrong password
+2026-07-15 13:33:48 | LOCKOUT_BLOCKED           | unknown              | 10.0.0.5        | 20s remaining
+2026-07-15 13:33:57 | LOCKOUT_BLOCKED           | unknown              | 10.0.0.5        | 10s remaining
+2026-07-15 13:36:54 | AUTH_FAILED               | userA                | 10.0.0.5        | Wrong password
+2026-07-15 13:37:01 | DUPLICATE_LOGIN           | userA                | 10.0.0.5        | 
+2026-07-15 13:37:12 | SESSION_TIMEOUT           | userA                |                 | Inactivity timeout
+2026-07-15 13:37:12 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:37:12 | SESSION_TIMEOUT           | userC                |                 | Inactivity timeout
+2026-07-15 13:37:42 | SESSION_TIMEOUT           | userA                |                 | Inactivity timeout
+2026-07-15 13:37:42 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:37:42 | SESSION_TIMEOUT           | userC                |                 | Inactivity timeout
+2026-07-15 13:38:12 | SESSION_TIMEOUT           | userA                |                 | Inactivity timeout
+2026-07-15 13:38:12 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:38:12 | SESSION_TIMEOUT           | userC                |                 | Inactivity timeout
+2026-07-15 13:38:42 | SESSION_TIMEOUT           | userA                |                 | Inactivity timeout
+2026-07-15 13:38:42 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:38:42 | SESSION_TIMEOUT           | userC                |                 | Inactivity timeout
+2026-07-15 13:39:12 | SESSION_TIMEOUT           | userA                |                 | Inactivity timeout
+2026-07-15 13:39:12 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:39:12 | SESSION_TIMEOUT           | userC                |                 | Inactivity timeout
+2026-07-15 13:41:41 | AUTH_SUCCESS              | userA                | 10.0.0.2        | 
+2026-07-15 13:42:02 | AUTH_SUCCESS              | userB                | 10.0.0.4        | 
+2026-07-15 13:42:15 | AUTH_SUCCESS              | userC                | 10.0.0.5        | 
+2026-07-15 13:43:03 | LOGOUT                    | userC                | 10.0.0.5        | 
+2026-07-15 13:43:12 | LOGOUT                    | userB                | 10.0.0.4        | 
+2026-07-15 13:43:19 | AUTH_SUCCESS              | userB                | 10.0.0.4        | 
+2026-07-15 13:43:23 | AUTH_FAILED               | userC                | 10.0.0.5        | Wrong password
+2026-07-15 13:43:28 | AUTH_SUCCESS              | userC                | 10.0.0.5        | 
+2026-07-15 13:43:48 | LOGOUT                    | userC                | 10.0.0.5        | 
+2026-07-15 13:43:56 | LOGOUT                    | userA                | 10.0.0.2        | 
+2026-07-15 13:44:03 | LOGOUT                    | userB                | 10.0.0.4        | 
+2026-07-15 13:44:18 | AUTH_SUCCESS              | userB                | 10.0.0.4        | 
+2026-07-15 13:44:21 | AUTH_FAILED               | userC                | 10.0.0.5        | Wrong password
+2026-07-15 13:44:23 | AUTH_SUCCESS              | userA                | 10.0.0.2        | 
+2026-07-15 13:45:10 | LOGOUT                    | userA                | 10.0.0.2        | 
+2026-07-15 13:45:22 | USER_REGISTERED           | userE                | 10.0.0.2        | 
+2026-07-15 13:45:22 | AUTH_SUCCESS              | userE                | 10.0.0.2        | 
+2026-07-15 13:50:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:51:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:51:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:51:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:51:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:52:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:52:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:52:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:52:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:53:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:53:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:53:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:53:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:53:49 | AUTH_FAILED               | userC                | 10.0.0.5        | Wrong password
+2026-07-15 13:53:53 | AUTH_FAILED               | userC                | 10.0.0.5        | Wrong password
+2026-07-15 13:54:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:54:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:54:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:54:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:55:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:55:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:55:43 | AUTH_FAILED               | userB                | 10.0.0.4        | Wrong password
+2026-07-15 13:55:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:55:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:56:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:56:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:56:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:56:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:57:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:57:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:57:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:57:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:58:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:58:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:58:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:58:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:59:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:59:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 13:59:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 13:59:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:00:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:00:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:00:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:00:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:01:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:01:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:01:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:01:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:02:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:02:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:02:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:02:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:03:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:03:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:03:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:03:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:04:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:04:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:04:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:04:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:05:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:05:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:05:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:05:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:06:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:06:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:06:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:06:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:07:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:07:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:07:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:07:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:08:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:08:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:08:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:08:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:09:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:09:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:09:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:09:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:10:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:10:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:10:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:10:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:11:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:11:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:11:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:11:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:12:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:12:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:12:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:12:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:13:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:13:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:13:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:13:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:14:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:14:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:14:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:14:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:15:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:15:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:15:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:15:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:16:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:16:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:16:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:16:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:17:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:17:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:17:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:17:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:18:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:18:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:18:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:18:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:19:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:19:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:19:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:19:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:20:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:20:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:20:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:20:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:21:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:21:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:21:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:21:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:22:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:22:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:22:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:22:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:23:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:23:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:23:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:23:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:24:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:24:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:24:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:24:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:25:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:25:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:25:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:25:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:26:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:26:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:26:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:26:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:27:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:27:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:27:45 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:27:45 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
+2026-07-15 14:28:15 | SESSION_TIMEOUT           | userB                |                 | Inactivity timeout
+2026-07-15 14:28:15 | SESSION_TIMEOUT           | userE                |                 | Inactivity timeout
